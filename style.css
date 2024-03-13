@@ -210,4 +210,11 @@ z-index: 1;
         border-radius: 45%;
         transform: scale(.88);
         z-index: -1;
+    } 
+    .Contact form {
+        display: flex;
+        box-sizing: border-box;
+        align-items: center;
+        margin: 0 auto;
+        padding: 5px 10px 15px 10px;
     }
