@@ -87,6 +87,10 @@ body{
     line-height: 1.3;
     text-align: left;
 }
+ /* Apply styles to the span within the heading */
+ .home-content .h1 span {
+    color: coral; /* Adjust the color as needed */
+ }
 .home-content h3{
      font-size: 2.3rem;
      font-weight: 400;
@@ -224,7 +228,7 @@ z-index: 1;
       
       /* Apply styles to the form */
       .contact.form form {
-        background-color: #fff;
+        background-color: black;
         padding: 20px;
         border-radius: 8px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -232,7 +236,7 @@ z-index: 1;
       
       /* Apply styles to the h1 inside the form */
       .contact.form h1 {
-        font-size: 24px;
+        font-size: 38px;
         margin-bottom: 20px;
         text-align: center;
       }
@@ -258,7 +262,7 @@ z-index: 1;
       .contact.form input[type="submit"] {
         width: 100%;
         padding: 10px;
-        background-color: #007bff;
+        background-color: black;
         color: #fff;
         border: none;
         border-radius: 4px;
@@ -268,20 +272,62 @@ z-index: 1;
       
       /* Hover effect for the submit button */
       .contact.form input[type="submit"]:hover {
-        background-color: #0056b3;
+        background-color: coral;
       }
-    .about-content{
-        display: flex;
-        align-items: center;
-        gap: 1.5rem;
-        padding: 15px;
-        margin: auto;
-    }
-    .heading {
-        font-size: 4rem;
-        margin-bottom: 3rem;
-        text-align: center;
-    }
-    .about-content h1 {
-
-    }
+      .home-photo {
+        float: left;
+        margin-right: 20px; /* Adjust as needed */
+      }
+      
+      /* Apply styles to the image */
+      .home-photo img {
+        width: 100%; /* Ensures the image fills its container */
+        border-radius: 50%; /* Creates a circular shape for the image */
+      }
+      
+      /* Apply styles to the container of the about content */
+      .about-content {
+        float: left;
+        width: calc(100% - 200px); /* Adjust based on the width of the image container */
+      }
+      
+      /* Apply styles to the heading */
+      .about-content .heading {
+        font-size: 36px;
+        margin-bottom: 10px;
+      }
+      
+      /* Apply styles to the span within the heading */
+      .about-content .heading span {
+        color: coral; /* Adjust the color as needed */
+      }
+      
+      /* Apply styles to the subheading */
+      .about-content h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      
+      /* Apply styles to the paragraph */
+      .about-content p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+      
+      /* Apply styles to the "Hire Me" button */
+      .about-content .btn2 {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: coral;
+        border-radius: 50%;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+      
+      /* Hover effect for the "Hire Me" button */
+      .about-content .btn2:hover {
+        background-color:rgb(53, 20, 8); /* Adjust the hover color as needed */
+      }
