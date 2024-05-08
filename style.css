@@ -315,33 +315,32 @@ z-index: 1;
       .about-content .btn2:hover {
         background-color:rgb(53, 20, 8);
       }
-      .home3 {
-        height: 100vh;
-    justify-content: space-between;
+      /* .home3 { */
+        /* height: 100vh; */
+    /* justify-content: space-between;
     margin-left: auto;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
-    padding: 70px 10% 0;
-    background-color: teal;
-    }
+    padding: 70px 10% 0; */
+    /* background-color: teal; */
     
-    .education-content {
+    .projects-content {
         margin-bottom: 20px;
     }
     
-    .education-content h1 {
+    .projects-content h1 {
         font-size: 24px;
         color: #333;
     }
     
-    .education-content h2 {
+    .projects-content h2 {
         font-size: 18px;
-        color: #666;
+        color: #666; 
     }
     
-    .education-content h3 {
+    .projects-content h3 {
         font-size: 16px;
         color: #888;
     }
@@ -358,36 +357,41 @@ z-index: 1;
     
     .btn2:hover {
         background-color: black;
-    }
+    } 
     .home3 {
-      padding: 20px;
+      background-color: teal;
+      background-size: cover;
     }
-    
-    .home3 .skills_section {
-      margin-top: 50px;
-    }
-    
-    .home3 .section-title {
-      font-size: 24px;
-      margin-bottom: 20px;
-    }
-    
-    .home3 .skills__container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
-    
-    .home3 .skills__data {
-      margin-bottom: 20px;
-    }
-    
-    .home3 .skills__names {
-      text-align: center;
-    }
-    
-    .home3 .skills__names img {
-      border-radius: 10px;
-      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-      margin-bottom: 10px;
-    }
+  .section-title { 
+    text-align: center;
+    font-size: 60px;
+    padding-bottom:70px ;
+    padding-top: 70px;
+  }
+  .section-title span {
+        
+        color:  coral;
+  }
+  .section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container2 {
+    width: 600px;
+    height: 500px;
+    padding: 73px 90px;
+    margin-left: 120px;
+  }
+  .heading {
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    margin-bottom: 50px;
+  }
+  .bar {
+    font-size: 23px;
+  }
+  .Technical-bars .bar {
+    margin: 40px 0;
+  }
